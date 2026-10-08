@@ -51,17 +51,6 @@ Students and Parents cannot simply sign up. They must be pre-admitted by the Adm
 ### Prerequisites
 Make sure you have Node.js installed on your machine and a MongoDB instance running (either local or MongoDB Atlas).
 
-### 1. Environment Setup
-
-**Backend (`backend/.env`):**
-Create a `.env` file in the `backend` directory:
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/school_management
-JWT_SECRET=your_super_secret_key_change_me
-NODE_ENV=development
-```
-
 ### 2. Installation
 
 Open your terminal and run the following to install dependencies for both the frontend and backend:
