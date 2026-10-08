@@ -2,11 +2,7 @@
 
 A comprehensive, production-ready full-stack School Management Platform built with the MERN stack (MongoDB, Express, React, Node.js). 
 
-This system features robust Role-Based Access Control (RBAC) supporting 6 distinct user profiles: **Admin, Principal, Teacher, Driver, Parent, and Student.**
-
----
-
-## 🌟 Core Features
+This system features robust Role-Based Access Control (RBAC) supporting 6 distinct user profiles: **Admin, Principal, Teacher, Driver, Parent, and Student.*
 
 ### 1. Multi-Role Dashboards & Security
 - **JWT Authentication**: Secure `httpOnly` cookie-based sessions.
@@ -83,9 +79,7 @@ npm run dev
 ```
 *(Client will start on http://localhost:5173 or the port provided by Vite)*
 
----
 
-## 📝 Testing Flow
 
 1. **Start as Admin**: First, run the `backend/src/scripts/seedAdmin.js` if it exists, or manually register an Admin directly into the DB.
 2. **Add Staff**: Log in as Admin, navigate to **Users**, and add a Principal, Teacher, and Driver.
